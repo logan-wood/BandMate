@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/find',
       name: 'find',
       component: () => import('../views/FindView.vue')
+    },
+    {
+      path: '/post',
+      name:'post',
+      component: () => import ('../views/PostView.vue')
     }
   ],
 })

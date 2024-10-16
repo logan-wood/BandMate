@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import GenreComponent from '@/components/home/GenreComponent.vue';
 
 const GENRES = ['Rock', 'Pop', 'Alternative', 'Acoustic', 'Blues', 'Electronic', 'Hip-Hop', 'Country', 'Metal']
